@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart Assistant Setup"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etTargetText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="క్లిక్ చేయాల్సిన టెక్స్ట్ (ఉదా: Accept)"
+        android:inputType="text"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="టార్గెట్ టెక్స్ట్ సేవ్ చేయండి"
+        android:layout_marginBottom="16dp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchActive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ఆటోమేషన్ ఆన్ / ఆఫ్"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnOpenAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accessibility Settings ఓపెన్ చేయండి"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnToggleFloating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ఫ్లోటింగ్ బటన్ చూపించు / దాచు"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnSimulatePopup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="సిమ్యులేషన్ టెస్ట్ (Mock Popup)" />
+
+</LinearLayout>
